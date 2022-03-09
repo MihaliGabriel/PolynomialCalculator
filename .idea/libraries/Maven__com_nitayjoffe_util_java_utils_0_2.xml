@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nitayjoffe.util:java-utils:0.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nitayjoffe/util/java-utils/0.2/java-utils-0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nitayjoffe/util/java-utils/0.2/java-utils-0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nitayjoffe/util/java-utils/0.2/java-utils-0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
