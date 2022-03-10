@@ -178,7 +178,9 @@ public class HomeworkController {
                     view.setResult(model.mergeResult(rezultat.get(0)));
                     if(model.emptyPolinom(rezultat.get(1)) == 0)
                         view.infoMessage("Rest: " + model.mergeResult(rezultat.get(1)));
-                    else view.infoMessage("Rest: " + "0");
+                    else {
+                        view.infoMessage("Rest: " + "0");
+                    }
                 }
                 else {
                     view.setResult("0");

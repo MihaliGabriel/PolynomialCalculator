@@ -277,14 +277,16 @@ public class  HomeworkModel{
         poli.setMonoms(monoameOrdonate);
         return poli;
     }
+
     public int emptyPolinom(Polinom p) {
         ArrayList <Monom> monomList = p.getMonoms();
         for(Monom i: monomList) {
-            if(i.getPow() != 0 && i.getCoefficient() == 0)
-                return 1;
+            if(i.getCoefficient() != 0)
+                return 0;
         }
-        return 0;
+        return 1;
     }
+
     public String mergeResult(Polinom p) {
         String s = "";
         ArrayList <Monom> monoame = new ArrayList<Monom> ();
